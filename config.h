@@ -5,8 +5,8 @@ static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "noto-sans:size=10" };
-static const char dmenufont[]       = "noto-sans:size=10";
+static const char *fonts[]          = { "notosansmono:size=10" };
+static const char dmenufont[]       = "notosansmono:size=10";
 static const char darkbg[]          = "#222222";
 static const char borders[]       = "#444444";
 static const char light_text[]       = "#BBBBBB";
@@ -66,7 +66,7 @@ static Key keys[] = {
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_n,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_e,      focusstack,     {.i = -1 } },
-	{ MODKEY,                       XK_i,      incnmaster,     {.i = +1 } },
+	{ MODKEY,                       XK_l,      incnmaster,     {.i = +1 } },
 	{ MODKEY,                       XK_u,      incnmaster,     {.i = -1 } },
 	{ MODKEY,                       XK_h,      setmfact,       {.f = -0.05} },
 	{ MODKEY,                       XK_i,      setmfact,       {.f = +0.05} },
